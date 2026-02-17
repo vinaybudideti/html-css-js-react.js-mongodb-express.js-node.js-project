@@ -121,29 +121,42 @@ React Context API demo showing shared state behavior.
 
 ```text
 src/
-├── components/
-│   ├── CourseTimelineCard/
-│   ├── ProjectTimelineCard/
-│   └── TimelineView/
-├── App.js
-└── index.js
+├─ components/
+│  ├─ CourseTimelineCard/
+│  ├─ ProjectTimelineCard/
+│  └─ TimelineView/
+├─ App.js
+└─ index.js
+```
 
 ## ▶️ Run Locally (Commands)
-
 ### ✅ Prerequisites
 - Node.js 18+ recommended
 - Package manager: pnpm (recommended if you keep pnpm-lock.yaml) or npm
 
+
 ### 1) Install dependencies
 ```bash
 pnpm install || npm install
-2) Start the development server
+```
+
+### 2) Start the development server
+```bash
 pnpm start || npm start
-3) Open in browser
+```
+
+### 3) Open in browser
+```bash
 http://localhost:3000
-4) Production build (optional)
+```
+
+### 4) Production build (optional)
+```bash
 pnpm build || npm run build
-📌 Notes for Reviewers
-The Live Demo is the fastest way to review: https://ccbptimeline.ccbp.tech/
-Projects are accessible from the timeline UI via project cards.
-This repo is intentionally documented so you can clone, install, and run it in a few commands.
+```
+
+## 📌 Notes for Reviewers
+- The Live Demo is the fastest way to review: https://ccbptimeline.ccbp.tech/
+- Projects are accessible from the timeline UI via project cards.
+- This repo is intentionally documented so you can clone, install, and run it in a few commands.
+- ⭐ If this repo helped you, consider giving it a star on GitHub! 🙌
