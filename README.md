@@ -127,40 +127,23 @@ src/
 │   └── TimelineView/
 ├── App.js
 └── index.js
-```
+
 ## ▶️ Run Locally (Commands)
 
 ### ✅ Prerequisites
-
 - Node.js 18+ recommended
 - Package manager: pnpm (recommended if you keep pnpm-lock.yaml) or npm
 
 ### 1) Install dependencies
-**pnpm (recommended if you keep pnpm-lock.yaml)
 ```bash
-```
-### 2) Start the development server
-```bash
-npm start
-```
-
-```bash
-pnpm start
-
-```
-### 3) Open in browser
-```bash http://localhost:3000
-```
-
-### 4) Production build (optional)
-
-```bash
-npm run build
-```
-```bash
-pnpm build
-```
-## 📌 Notes for Reviewers
-- The Live Demo is the fastest way to review: https://ccbptimeline.ccbp.tech/
-- Projects are accessible from the timeline UI via project cards.
-- This repo is intentionally documented so you can clone, install, and run it in a few commands.
+pnpm install || npm install
+2) Start the development server
+pnpm start || npm start
+3) Open in browser
+http://localhost:3000
+4) Production build (optional)
+pnpm build || npm run build
+📌 Notes for Reviewers
+The Live Demo is the fastest way to review: https://ccbptimeline.ccbp.tech/
+Projects are accessible from the timeline UI via project cards.
+This repo is intentionally documented so you can clone, install, and run it in a few commands.
