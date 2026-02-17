@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.project-card {
+  padding: 16px;
+  max-width: 600px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.project-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.project-card-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.project-timeline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.calendar-icon {
+  font-size: 18px;
+  color: #1e293b;
+}
+
+.project-duration-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.project-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #334155;
+  margin-bottom: 12px;
+}
+
+.visit-link {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #0967d2;
+  font-weight: bold;
+  text-decoration: none;
+  align-self: flex-start;
+}

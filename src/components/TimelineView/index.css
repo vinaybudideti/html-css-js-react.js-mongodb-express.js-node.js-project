@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.timelineitems-page {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.heading-one {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #1e293b;
+  padding-bottom: 18px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.heading-two {
+  font-family: 'Roboto';
+  font-size: 33px;
+  color: #2b237c;
+  padding-bottom: 20px;
+  text-align: center;
+}

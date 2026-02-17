@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.course-card {
+  padding: 16px;
+  max-width: 600px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.course-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+.course-card-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #1e293b;
+  font-weight: bold;
+}
+
+.course-timeline {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+.clock-icon {
+  display: block;
+  object-fit: contain;
+  height: 25px;
+  width: 25px;
+}
+
+.course-duration-text {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+  color: #1e293b;
+}
+
+.course-description {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  color: #585c61;
+  padding-bottom: 5px;
+}
+
+.tags-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  justify-content: flex-start;
+}
+
+.tag-item {
+  background-color: #818386;
+  min-height: 60px;
+  padding: 10px;
+  min-width: 60px;
+  align-items: center;
+}
+
+.tag-text {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 15px;
+  color: #1e293b;
+  align-self: center;
+}
