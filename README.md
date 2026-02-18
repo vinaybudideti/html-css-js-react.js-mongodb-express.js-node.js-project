@@ -92,15 +92,7 @@ E-commerce UI featuring product listing and shopping cart workflows.
 - Dynamic cart item count in navbar  
 - Cart page with total price calculation  
 - Empty cart message handling  
-- Mobile-friendly design  
-
----
-
-### 🧠 Context App (Demo Login)
-
-React Context API demo showing shared state behavior.
-
-**Live Demo:** https://contextapp20p3.ccbp.tech/
+- Mobile-friendly design
 
 **Demo Credentials:**
 - Username: henry | Password: henry_the_developer  
@@ -114,6 +106,14 @@ React Context API demo showing shared state behavior.
 - Login works  
 - Shared state updates across components/pages correctly  
 - Context patterns (Provider/Consumer) are implemented cleanly  
+
+---
+
+### 🧠 Context App (Demo Login)
+
+React Context API demo showing shared state behavior.
+
+**Live Demo:** https://contextapp20p3.ccbp.tech/
 
 ---
 
